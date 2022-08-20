@@ -1,0 +1,165 @@
+
+
+
+/*  font-family: 'Quicksand', sans-serif;
+
+    font-family: 'Work Sans', sans-serif;
+*/
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header{
+  background-color: rgba(225, 225, 227, 0.8);
+  position: sticky;
+  top: 0;
+  text-align: center;
+  margin-top: 10px;
+}
+.header-container{
+  margin-top: 20px;
+  display: inline-grid;
+  grid-template-columns: 1fr 3fr 1fr;
+}
+.left-logo img{
+  float: right;
+  margin-right: 50px;
+}
+
+.input-field{
+  padding: 10px;
+}
+.headermargin{
+  width: 100%;
+  background: #303236;
+  text-align: right;
+}
+.headermargin img{
+  margin-right: 100px;
+}
+.nav-bar{
+  font-family: 'Work Sans', sans-serif;
+  margin-top: 20px;
+  padding-bottom: 20px;
+  font-weight: 900;
+}
+
+ul{
+  text-decoration: none;
+  text-align: center;
+}
+a{
+  color: #5a5d63;
+  text-decoration: none;
+}
+li{
+  list-style-type: none;
+  text-decoration: none;
+  margin-right: 50px;
+  display: inline-block;
+}
+.welcome-banner img{
+  width: 1600px;
+}
+
+.banner{
+  text-align: center;
+  margin-top: 10px;
+}
+.sale-banner{
+text-align: center;
+margin-top: 30px;
+}
+.item-list img{
+  width: 200px;
+}
+h1, h3, h4{
+  font-family: 'Quicksand', sans-serif;
+}
+
+h3{
+  margin: 100px;
+  text-align: center;
+}
+.item-list{ 
+  align-items: center;
+  display: inline-grid;
+  grid-gap: 20px;
+  grid-template-columns:  repeat(4, 1fr);
+  grid-template-rows: ;
+}
+.subscribe{
+  width: 100%;
+  background-color: #bdbbbb;
+  text-align: center;
+
+}
+.text{
+  padding: 20px;
+}
+.subscribe button{
+  font-family: 'Work Sans', sans-serif;
+  background-color: #5b57ab;
+  padding: 20px;
+  margin-left: -150px;
+}
+h4{
+  font-weight: 200;
+  padding: 20px;
+}
+
+/*Footer*/
+.footer{
+  margin: 50px 50px;
+  text-align: center;
+  bottom: 0;
+}
+.footer-items{
+  display: inline-grid;
+  grid-template-columns: repeat(3, 400px);
+
+}
+.items{
+  text-align: left;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  display: inline-grid;
+  font-weight: 200;
+
+
+}
+.items:hover{
+  color: #8f8c8c;
+}
+.items, a:hover{
+  color: #141414;
+}
+.copyright{
+  letter-spacing: 2px;
+  align-items: center;
+  font-family: 'Quicksand', sans-serif;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid;
+}
+.copyright h5{
+  margin-bottom: 10px;
+}
+.items h4{
+  padding: 0;
+}
+.payment-icon{
+  display: inline-block;
+  padding-right: 5px;
+  margin-bottom: 10px;
+}
+.payment-icon img{
+  width: 50px;
+  margin-right: 5px;
+}
+.store-name{
+  margin-top: 10px;
+}
